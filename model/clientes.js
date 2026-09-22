@@ -18,7 +18,7 @@ class Cliente {
             type: database.db.Sequelize.INTEGER,
         },
         concluido: {
-            type: database.db.Sequelize.STRING,
+            type: database.db.Sequelize.BOOLEAN,
         }
         })
     }
